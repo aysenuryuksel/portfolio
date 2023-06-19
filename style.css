@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  body{
+    
+    font-family: 'Kanit', sans-serif;
+    color: rgb(53, 53, 53);
+    height: 2000px;
+    background-color: rgb(253, 253, 253);
+  }
+  /************************/
+  /*********NAVBAR*********/
+  /************************/
+  .container{
+    padding: 1rem 0rem;
+    width: 80%;
+    margin: auto;
+}
+header{
+    /* background-image: url(img/watercolor-4116932_1280.png);
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 300px;
+    width: 80%;
+    
+}
+ 
+  .navparent{
+    display: flex;
+    justify-content: space-between;
+  }
+  img{
+    width: 100%;
+  }
+  .logo{
+   width: 20%;
+}
+  .menu ul li{
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    display: inline-block;
+  }
+  .box{
+    display: none;
+  }
+  
+  .menu{
+    padding-top: 2rem;
+    width: 50%;
+    text-align: center;
+  }
+  .menu ul li a{
+    color: rgb(53, 53, 53);;
+    text-decoration: none;
+  }
+  .menu ul li:hover{
+    background-color: rgb(218 225 198);
+    border-radius: 10px;
+  }
+  
+  /************************/
+  /*********HEADER*********/
+  /************************/
+
+  .parent{
+    /* background-color:rgb(83 95 150); */
+    display: flex;
+    /* border: 1px solid white; */
+    /* border-radius: 0px 50px 0px 50px; */
+   justify-content: space-between;
+    align-items: center;
+   padding: 1rem 1rem;
+  }
+  .tanıtım{
+    margin-top: 5rem;
+    width: 50%;
+    text-align: center;
+}
+.abouttablet{
+    
+    width: 20%;
+}
+.tanıtımImg{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+/* .about{
+    background-color: rgb(83 95 150);
+} */
+
+ /************************/
+  /*********section*********/
+  /************************/
+
+  .eduparent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+   
+  }
+  .education{
+    text-align: center;
+    width: 40%;
+    
+  }
+  .experience{
+    text-align: center;
+    width: 40%;
+    
+  }
+
+@media screen and (max-widht:1150px){
+    .container{
+      width: 95%;
+    }
+    
+    .parent{
+      display: block;
+      width: 100%;
+    }
+    .menu ul li a{
+      display: none;
+    }
+    .box{
+      display: inline-flex;
+      font-size: 5rem;
+    }
+    
+    
+  }
