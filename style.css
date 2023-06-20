@@ -41,9 +41,7 @@ background-color:rgb(147 166 161);
  height: 300px;
  align-items: center;
 }
-/* .headercontents{
- height: 300px;
-} */
+
 .headerImg{
  background-image:linear-gradient(rgba(107, 116, 67, 0.4) , rgba(0,0,0,.4)) , url(img/desk-3204896_1280.jpg);
 background-repeat: no-repeat;
@@ -57,8 +55,6 @@ img{
 
 .sectionImg{
  margin-top: 2rem;
- /* background-image: url(img/watercolor-4116932_1280.png);
- background-position: center; */
 }
 .sectionContents{
  display: flex;
