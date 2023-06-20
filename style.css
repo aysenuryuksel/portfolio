@@ -1,134 +1,151 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } 
-  body{
-    
-    font-family: 'Kanit', sans-serif;
-    color: rgb(53, 53, 53);
-    height: 2000px;
-    background-color: rgb(253, 253, 253);
-  }
-  /************************/
-  /*********NAVBAR*********/
-  /************************/
-  .container{
-    padding: 1rem 0rem;
-    width: 80%;
-    margin: auto;
-}
-header{
-    /* background-image: url(img/watercolor-4116932_1280.png);
-    background-position: center;
-    background-repeat: no-repeat; */
-    height: 300px;
-    width: 80%;
-    
-}
- 
-  .navparent{
-    display: flex;
-    justify-content: space-between;
-  }
-  img{
-    width: 100%;
-  }
-  .logo{
-   width: 20%;
-}
-  .menu ul li{
-    margin-left: 1.5rem;
-    font-size: 1.2rem;
-    display: inline-block;
-  }
-  .box{
-    display: none;
-  }
-  
-  .menu{
-    padding-top: 2rem;
-    width: 50%;
-    text-align: center;
-  }
-  .menu ul li a{
-    color: rgb(53, 53, 53);;
-    text-decoration: none;
-  }
-  .menu ul li:hover{
-    background-color: rgb(218 225 198);
-    border-radius: 10px;
-  }
-  
-  /************************/
-  /*********HEADER*********/
-  /************************/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 
-  .parent{
-    /* background-color:rgb(83 95 150); */
-    display: flex;
-    /* border: 1px solid white; */
-    /* border-radius: 0px 50px 0px 50px; */
-   justify-content: space-between;
-    align-items: center;
-   padding: 1rem 1rem;
-  }
-  .tanıtım{
-    margin-top: 5rem;
-    width: 50%;
-    text-align: center;
+body{
+ font-family: 'Montserrat', sans-serif;
+
 }
-.abouttablet{
-    
-    width: 20%;
+.iconmenu{
+ display: none;
 }
-.tanıtımImg{
-    width: 30%;
+.navParent ul li {
+ display: inline-block;
+}
+.navParent{
+ padding-top: 2rem;
+ text-align: center;
+ margin-bottom: 3rem;
+}
+
+.navParent ul li a {
+ display: inline-block;
+ padding: 10px 20px;
+ text-decoration: none;
+ color: #333;
+}
+
+.navParent ul li a:hover {
+background-color:rgb(147 166 161);
+ border: 1px solid rgb(147 166 161);
+ border-radius: 10px;
+}
+.headerParent{
+ margin: auto;
+ justify-content: center;
+ text-align: center;
+ display: flex;
+ color: white;
+ height: 300px;
+ align-items: center;
+}
+/* .headercontents{
+ height: 300px;
+} */
+.headerImg{
+ background-image:linear-gradient(rgba(107, 116, 67, 0.4) , rgba(0,0,0,.4)) , url(img/desk-3204896_1280.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+ 
 }
 img{
+ width: 100%;
+}
+
+.sectionImg{
+ margin-top: 2rem;
+ /* background-image: url(img/watercolor-4116932_1280.png);
+ background-position: center; */
+}
+.sectionContents{
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ height: 300px;
+ text-align: center;
+ align-items: center;
+}
+.about{
+ width: 50%
+}
+.icon{
+ font-size: 40px;
+}
+.about h2{
+ padding-bottom: 2rem;
+}
+
+.projeparent{
+ width: 100%;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ text-align: center;
+}
+.projeContents{
+ text-align: center;
+}
+.proje1{
+ margin-top: 2rem;
+ width: 20%;
+ display: inline-block;
+}
+.proje2{
+ margin-left: 2rem;
+ width: 20%;
+ display: inline-block;
+}
+.fotParent{
+ display: block;
+ justify-content: space-between;
+ text-align: center;
+ align-items: center;
+ margin-top: 3rem;
+}
+.fotParent  li a{
+ color: black;
+ font-size: 1.7rem;
+}
+.footerSocial li{
+ display: inline-block;
+margin: 1rem 1rem;
+ 
+}
+footer{
+ background-color: rgb(147 166 161);
+}
+.contents{
+ padding-top: 2rem;
+}
+.iconmenu{
+ display: none;
+}
+@media screen and (max-width:800px) {
+ .container{
     width: 100%;
 }
-/* .about{
-    background-color: rgb(83 95 150);
-} */
-
- /************************/
-  /*********section*********/
-  /************************/
-
-  .eduparent{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-   
-  }
-  .education{
-    text-align: center;
-    width: 40%;
-    
-  }
-  .experience{
-    text-align: center;
-    width: 40%;
-    
-  }
-
-@media screen and (max-widht:1150px){
-    .container{
-      width: 95%;
-    }
-    
-    .parent{
-      display: block;
-      width: 100%;
-    }
-    .menu ul li a{
-      display: none;
-    }
-    .box{
-      display: inline-flex;
-      font-size: 5rem;
-    }
-    
-    
-  }
+.menu{
+    display: none;
+}
+.iconmenu{
+    display: block;
+    font-size: 2rem;
+}
+.headerParent{
+ width: 100%;
+}
+.about{
+ width: 95%;
+}
+.projeparent{
+ width: 100%;
+ padding-top: 1rem;
+}
+.proje2, .proje1{
+ width: 80%;
+ padding-top: 2rem;
+}
+}
