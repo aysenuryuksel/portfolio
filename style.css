@@ -135,10 +135,11 @@ footer{
 }
 .about{
  width: 95%;
+padding-top: 2rem;
 }
 .projeparent{
  width: 100%;
- padding-top: 1rem;
+ padding-top: 2rem;
 }
 .proje2, .proje1{
  width: 80%;
